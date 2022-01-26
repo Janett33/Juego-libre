@@ -16,7 +16,7 @@ class Rabd {
 display (){
     var pos = this.body.position;
     pos.x = mouseX;
-    pos.y = 100;
+    pos.y = 600;
 
     push();
     translate(pos.x,pos.y);

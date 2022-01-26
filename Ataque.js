@@ -6,8 +6,8 @@ class Ataque {
             'restitution': 0.5
     };
     this.body = Bodies.rectangle(x,y,50,50,options);
-    this.width = 200;
-    this.height = 200;
+    this.width = 240;
+    this.height = 240;
     this.image = loadImage ("images/ataque.png");
     World.add(world, this.body);
    };
@@ -15,7 +15,7 @@ class Ataque {
 display (){
    var pos = this.body.position;
    pos.x = 100;
-   pos.y = 650;
+   pos.y = 100;
 
    push();
    translate(pos.x,pos.y);
